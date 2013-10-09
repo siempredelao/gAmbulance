@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<gate type="auto">
+	<label>Automatico</label>
+	<rate>6</rate> <!-- veces por minuto -->
+	<server>88.23.121.154</server>
+	<port>3425</port>
+	<web_service>REST/jaxrs/mockserver</web_service>
+	
+	<activity type="record_image">
+		<order>1</order>
+		<query>
+			<title>Imágenes accidente</title>
+			<slidable>no</slidable>
+		</query>
+	</activity>
+	
+	<activity type="record_coordinates">
+		<order>2</order>
+		<query>
+			<title>Ubicación geográfica</title>
+			<slidable>no</slidable>
+		</query>
+	</activity>
+</gate>
